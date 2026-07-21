@@ -1,17 +1,17 @@
-// 1. You MUST import React at the top so the file knows how to compile JSX
+
 import React, { useState } from 'react'; 
 
-// 2. Import your data array structures
+
 import { books, courses, blogs } from './data';
 
-// 3. Import the components from your newly renamed .js file (no extension needed)
+
 import { BookDetails, CourseDetails, BlogDetails } from './Components'; 
 import './App.css';
 
 function App() {
   const [showContent, setShowContent] = useState(true);
 
-  // Conditional rendering using an element variable
+  
   let coursedet = <CourseDetails courses={courses} />;
 
   return (

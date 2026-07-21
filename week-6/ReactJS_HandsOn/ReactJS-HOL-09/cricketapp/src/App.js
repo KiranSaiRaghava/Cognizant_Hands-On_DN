@@ -7,7 +7,7 @@ import {
   ListofIndianPlayers 
 } from './Components/CricketComponents';
 
-// Global Data Arrays
+
 const players = [
   { name: "Jack", score: 50 },
   { name: "Michael", score: 70 },
@@ -24,13 +24,13 @@ const players = [
 
 const IndianTeam = ["Sachin1", "Dhoni2", "Virat3", "Rohit4", "Yuvraj5", "Raina6"];
 
-// ES6 Spread Operator Merging
+
 const T20Players = ['First Player', 'Second Player', 'Third Player'];
 const RanjiTrophyPlayers = ['Fourth Player', 'Fifth Player', 'Sixth Player'];
 const IndianPlayers = [...T20Players, ...RanjiTrophyPlayers];
 
 function App() {
-  // TOGGLE THIS VARIABLE: Set to true or false to change views
+  
   const flag = true; 
 
   if (flag === true) {
