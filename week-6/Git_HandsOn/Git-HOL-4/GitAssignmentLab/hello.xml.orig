@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+<note><to>User</to><from>Master</from><body>Master Content Changes</body></note>
+=======
+<note><to>User</to><from>GitWork</from><body>Updated Branch Content</body></note>
+>>>>>>> GitWork
